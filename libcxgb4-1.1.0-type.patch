@@ -1,0 +1,11 @@
+--- libcxgb4-1.1.0/src/t4.h.save	2011-02-03 18:23:03.612796608 -0500
++++ libcxgb4-1.1.0/src/t4.h	2011-02-03 18:23:22.489655272 -0500
+@@ -51,7 +51,7 @@
+ #define __be64 uint64_t
+ #define u64 uint64_t
+ #define DECLARE_PCI_UNMAP_ADDR(a)
+-#define dma_addr_t uint64_t
++// #define dma_addr_t uint64_t
+ #define __iomem
+ #define cpu_to_be16 htons
+ #define cpu_to_be32 htonl
